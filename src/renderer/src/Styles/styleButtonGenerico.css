@@ -1,0 +1,20 @@
+/* Estilos del botón */
+.custom-button {
+    background-color: #4CAF50; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 15px 32px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como bloque en línea */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen */
+    cursor: pointer; /* Cursor al pasar por encima */
+    border-radius: 10px; /* Borde redondeado */
+    transition-duration: 0.4s; /* Duración de la transición */
+}
+
+/* Cambio de color al pasar el ratón por encima */
+.custom-button:hover {
+    background-color: #45a049; /* Nuevo color de fondo */
+}
