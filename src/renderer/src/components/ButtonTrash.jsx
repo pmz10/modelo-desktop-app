@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "../Styles/stylesButtonTrash.css";
+import "../Styles/styleButtonTrash.css"
 
-export const TrashButton = () => {
+const ButtonTrash = () => {
   const [isDeleting, setIsDeleting] = useState(false);
 
   const handleClick = () => {
@@ -20,7 +20,7 @@ export const TrashButton = () => {
         disabled={isDeleting}
       >
         <span className="button-text">
-          {isDeleting ? "Deleting ..." : "Delete User"}
+          {isDeleting ? "Eliminando..." : "Eliminar"}
         </span>
         <span className="animation">
           <span className="paper-wrapper">
@@ -38,3 +38,7 @@ export const TrashButton = () => {
     </div>
   );
 };
+
+export default ButtonTrash
+
+
