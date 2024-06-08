@@ -6,6 +6,7 @@ const App = () => {
     <>
       <h1>Hola Mundo</h1>
       <ButtonGenerico />
+      <ButtonGenerico />
     </>
   )
 }
